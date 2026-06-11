@@ -30,7 +30,7 @@ function Shop() {
   const [openFilter, setOpenFilter] = useState(false);
 
   const update = (patch: Partial<Search>) =>
-    navigate({ search: (prev) => ({ ...prev, ...patch }) });
+    navigate({ search: (prev: Search) => ({ ...prev, ...patch }) });
 
   const filtered = useMemo(() => {
     let out = [...PRODUCTS];
