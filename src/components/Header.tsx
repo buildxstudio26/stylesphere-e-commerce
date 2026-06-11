@@ -9,7 +9,7 @@ export function Header() {
   return (
     <>
       <div className="bg-accent text-accent-foreground text-xs tracking-widest text-center py-2 px-4">
-        SPRING / SUMMER COLLECTION IS LIVE  —  <Link to="/shop" className="underline underline-offset-4">EXPLORE NOW</Link>
+        OUR SUMMER COLLECTION IS LIVE  —  <Link to="/shop" className="underline underline-offset-4">EXPLORE NOW</Link>
       </div>
       <header className="sticky top-0 z-40 bg-background/85 backdrop-blur border-b border-border">
         <div className="max-w-[1500px] mx-auto px-6 py-4 flex items-center justify-between gap-6">

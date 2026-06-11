@@ -19,7 +19,7 @@ export function Footer() {
           </div>
         ))}
       </div>
-      <div className="border-t border-border py-6 text-center text-xs tracking-widest text-muted-foreground">© {new Date().getFullYear()} LUMIÈRE — ALL RIGHTS RESERVED</div>
+      <div className="border-t border-border py-6 text-center text-xs tracking-widest text-muted-foreground">© {new Date().getFullYear()} LUMIÈRE — ALL RIGHTS ARE RESERVED</div>
     </footer>
   );
 }
